@@ -17,6 +17,9 @@
     --text-muted: #adb5bd;
     --card-bg: #2c2c2c;
     --navbar-bg: #000000;
+    --input-bg: #333333;
+    --input-border: #444444;
+    --input-text: #e0e0e0;
 }
 
 body {
@@ -25,6 +28,19 @@ body {
     color: var(--text-color);
     background-color: var(--bg-body);
     transition: background-color 0.3s, color 0.3s;
+}
+
+/* Forms (Dark Mode) */
+[data-theme="dark"] .form-control {
+    background-color: var(--input-bg);
+    border-color: var(--input-border);
+    color: var(--input-text);
+}
+
+[data-theme="dark"] .form-control:focus {
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    border-color: #0d6efd; /* Bootstrap primary color */
 }
 
 /* Navbar */
