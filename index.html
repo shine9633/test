@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魅力延边 - 欢迎您</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-geo-alt-fill text-danger"></i> 魅力延边
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">关于延边</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#culture">民俗文化</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#food">特色美食</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tourism">旅游景点</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏 Hero Section -->
+    <header id="home" class="hero-section d-flex align-items-center text-center text-white">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">欢迎来到中国延边</h1>
+            <p class="lead mb-4">感受朝鲜族风情，领略长白山雄姿</p>
+            <a href="#about" class="btn btn-outline-light btn-lg px-5">开始探索</a>
+        </div>
+    </header>
+
+    <!-- 关于延边 -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">关于延边</h2>
+                    <p class="text-muted">延边朝鲜族自治州位于吉林省东部，地处中朝俄三国交界，是中国最大的朝鲜族聚居地。这里不仅有壮丽的自然风光，更有着独特而浓郁的朝鲜族民俗文化。</p>
+                    <p class="text-muted">无论是春夏的绿意盎然，还是秋冬的银装素裹，延边都以其独特的魅力吸引着世界各地的游客。</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yanji_cityscape.jpg/800px-Yanji_cityscape.jpg" class="img-fluid rounded-3 shadow" alt="延吉市风光">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 民俗文化 -->
+    <section id="culture" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title mb-5">民俗文化</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3 text-primary"><i class="bi bi-music-note-beamed fs-1"></i></div>
+                            <h5 class="card-title">歌舞之乡</h5>
+                            <p class="card-text text-muted">朝鲜族能歌善舞，农乐舞、长鼓舞等传统舞蹈已被列入国家级非物质文化遗产。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3 text-danger"><i class="bi bi-house-door fs-1"></i></div>
+                            <h5 class="card-title">传统建筑</h5>
+                            <p class="card-text text-muted">传统的朝鲜族房屋多为土木结构，屋顶四面坡，不仅美观大方，而且冬暖夏凉。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3 text-success"><i class="bi bi-emoji-smile fs-1"></i></div>
+                            <h5 class="card-title">礼仪之邦</h5>
+                            <p class="card-text text-muted">尊老爱幼、热情好客是延边人民的传统美德，也是这里最温暖的人文风景。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色美食 -->
+    <section id="food" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">延边味道</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card food-card text-white">
+                        <div class="rounded card-img-overlay-container" style="height: 250px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Naengmyeon.jpg/640px-Naengmyeon.jpg');"></div>
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-3 gradient-overlay">
+                            <h5 class="card-title">延吉冷面</h5>
+                            <p class="card-text small">酸甜爽口，冰凉劲道，夏天必选。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card food-card text-white">
+                        <div class="rounded card-img-overlay-container" style="height: 250px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Barbecued_chuan_lamb_sticks.jpg/640px-Barbecued_chuan_lamb_sticks.jpg');"></div>
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-3 gradient-overlay">
+                            <h5 class="card-title">延边烧烤</h5>
+                            <p class="card-text small">自助烧烤，风味独特，佐料丰富。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card food-card text-white">
+                        <div class="rounded card-img-overlay-container" style="height: 250px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/640px-Dolsot-bibimbap.jpg');"></div>
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-3 gradient-overlay">
+                            <h5 class="card-title">石锅拌饭</h5>
+                            <p class="card-text small">色彩缤纷，营养均衡，锅底锅巴最香。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅游景点 -->
+    <section id="tourism" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">长白山天池</h2>
+                    <p class="text-muted">长白山脉是鸭绿江、松花江和图们江的发源地。是中国满族的发祥地和满族文化圣山。</p>
+                    <p class="text-muted">天池像一块瑰丽的碧玉镶嵌在雄伟的长白山群峰之中，是中国最大的火山湖，也是世界上最深的高山湖泊。</p>
+                    <button class="btn btn-primary mt-3">查看详情</button>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Heaven_Lake_in_summer.jpg/800px-Heaven_Lake_in_summer.jpg" class="img-fluid rounded-3 shadow" alt="长白山天池">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <div class="mb-3">
+                <i class="bi bi-facebook mx-2"></i>
+                <i class="bi bi-twitter mx-2"></i>
+                <i class="bi bi-instagram mx-2"></i>
+                <i class="bi bi-wechat mx-2"></i>
+            </div>
+            <p class="mb-0">&copy; 2026 魅力延边旅游宣传. All rights reserved.</p>
+            <small class="text-muted">设计：Gemini CLI</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

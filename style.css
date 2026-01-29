@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+    scroll-behavior: smooth;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Heaven_Lake_at_Mount_Paektu.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    min-height: 500px;
+}
+
+/* Section Titles */
+.section-title {
+    position: relative;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #dc3545; /* Red accent */
+}
+
+/* Center alignment for titles in centered sections */
+.text-center .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Food Cards */
+.food-card {
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-overlay-container {
+    background-size: cover;
+    background-position: center;
+}
+
+.gradient-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    border-radius: 0 0 5px 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
